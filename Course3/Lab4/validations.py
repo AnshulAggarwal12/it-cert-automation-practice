@@ -1,3 +1,7 @@
+print(validate_user("blue.kale", 3)) #True
+print(validate_user(".blue.kale", 3)) #Currently True
+print(validate_user("red_quiona", 4)) #True
+print(validate_user("_red_quiona", 4)) #Currently True
 #!/usr/bin/env python3
 
 import re
